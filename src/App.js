@@ -1,9 +1,12 @@
-import { Button } from "react-bootstrap";
+import HeroSection from "./Components/Hero Section/HeroSection";
 import NavbarForBigScreen from "./Components/Navbar/NavbarForBigScreen";
 
 function App() {
   return (
-     <NavbarForBigScreen/>
+    <>
+      <NavbarForBigScreen />
+      {/* <HeroSection/> */}
+    </>
   );
 }
 
